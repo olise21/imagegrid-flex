@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+span{
+    color: red;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.main{
+    display: flex;
+    flex: 100%;
+   flex-direction: column-reverse;
+    background-color: azure;
+    height: auto;
+}
+.mainCon{
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: azure;
+    height: auto;
+}
+.topBar{
+    background-color: black;
+    width: 100%;
+    height: 25px;
+
+}
+.img1{
+    margin-top: 10px;
+    height: auto;
+    margin-bottom: 15px;
+}
+h1{
+    font-size: 18px;
+}
+/*
+p{
+    color: grey;
+    margin-top: 0px;
+}
+*/
+a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    text-align: center;
+    background-color: grey;
+    color: black;
+    font-size: 19px;
+}
+.soc-icons{
+    font-size: 20px;
+    text-align: center;
+}
